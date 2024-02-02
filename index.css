@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: Montserrat,sans-serif;
+    margin: 15px auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+input {
+    height: 48px;
+    width: 345px;
+    padding: 0 10px;
+    font-family: Montserrat,sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid #E0DEDE;
+    border-radius: 8px;
+}
+
+.bck-pic {
+    height: 1024px;
+    width: 1440px;
+    background-image: url('./image/Homepage.png');
+    margin: 200px auto;
+    position: relative;
+}
+
+.frm-cont {
+    position: relative;
+    top: 70px;
+    left: 23px;
+    width: 589px;
+    height: 883px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.frm {
+    position: absolute;
+    top: 20px;
+    left: 125px;
+    width: 346px;
+}
+
+.crt {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.reg-btn, .reg-btn-ggl {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.reg-btn {
+    color: white;
+    background-color: #6DA01E;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+}
+
+.reg-btn:hover {
+    color: #6DA01E;
+    background-color: rgba(224, 222, 222, 0);
+    border: 1px solid #6DA01E;
+    cursor: pointer;
+}
+
+.reg-btn-ggl {
+    color: #6DA01E;
+    background-color: rgba(224, 222, 222, 0);
+    border: 1px solid #6DA01E;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.reg-btn-ggl:hover {
+    color: white;
+    background-color: #6DA01E;
+    cursor: pointer;
+}
+
+.al-acc, .lgn {
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.al-acc {
+    text-align: center;
+}
+
+.lgn {
+    color: #6DA01E;
+    cursor: pointer;
+}
+
+.con-password {
+    background-image: url('./image/eye-slash.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.password {
+    background-image: url('./image/eye-slash.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
